@@ -15,6 +15,24 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="animals.html">Interesting Animals</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link active" href="plane.html">Plane</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="train.html">Train</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
   <h1>Animals by Anil Kumar Kolla</h1>
   <div class="container">
@@ -37,5 +55,95 @@
 
     <div>As we observe that, If we resize the rows with Animal names, which breaks at 767 x 721 px and If we resize the rows with Animal letters, which breaks at 574 x 721 px </div>
     </div>
- </body>
+  </div>
+  <div class="container">
+   <img src="lion.jpg" class="image-fluid" height="400px" width="400px">
+   <img src="ostrich.jpg" class="image-fluid" height="400px" width="400px">
+   <img src="kangaroo.jpg" class="image-fluid" height="400px" width="400px">
+ </div>
+ <div class="container">
+   <img src="lion.jpg" class="image-thumbnail" width="100">
+   <img src="ostrich.jpg" class="image-thumbnail" width="100">
+   <img src="kangaroo.jpg" class="image-thumbnail" width="100">
+ </div>
+ <br>
+ <table class="table table-striped table-hover" style="color:red; width: 80%; text-align:center; margin-left: auto; margin-right: auto;" >
+   <caption style="font-size: 20px; color:blue;"> Above Table containing 6 letters and the corresponding animals,cities and car models that start with those letters.</caption>
+   <thread>
+     <thead>
+       <tr>
+         <th scope="col">Letter</th>
+         <th scope="col">Animal</th>
+         <th scope="col">City</th>
+         <th scope="col">Car</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td scope="row">K</td>
+         <td scope="row">Kangaroo</td>
+         <td scope="row">Kansas</td>
+         <td scope="row">Kia</td>
+       </tr>
+       <tr>
+         <td scope="row">O</td>
+         <td scope="row">Ostrich</td>
+         <td scope="row">Ohio</td>
+         <td scope="row">Orca</td>
+       </tr>
+       <tr>
+         <td scope="row">L</td>
+         <td scope="row">Lion</td>
+         <td scope="row">London</td>
+         <td scope="row">lamborgini</td>
+       </tr>
+       <tr>
+         <td scope="row">L</td>
+         <td scope="row">Leopard</td>
+         <td scope="row">Louisville</td>
+         <td scope="row">Lorry</td>
+       </tr>
+       <tr>
+         <td scope="row">A</td>
+         <td scope="row">Aardvark</td>
+         <td scope="row">Austin</td>
+         <td scope="row">Ambassdor</td>
+       </tr>
+       <tr>
+         <td scope="row">A</td>
+         <td scope="row">Alligator</td>
+         <td scope="row">Atlanta</td>
+         <td scope="row">Aston Martin</td>
+       </tr>
+     </tbody>
+   </thread>
+ </table>
+ 
+ <div class="btn-toolbar" role="toolbar" aria-label="Button Groups">
+   <div class="btn-group mr-2" role="group" aria-label="First Button">
+       <button type="button" class="btn btn-success">K</button>
+       <button type="button" class="btn btn-success">O</button>
+       <button type="button" class="btn btn-success">L</button>
+   </div>
+   <div class="btn-group mr-2" role="group" aria-label="Second Button">
+       <button type="button" class="btn btn-warning">L</button>
+       <button type="button" class="btn btn-warning">A</button>
+   </div>
+   <div class="btn-group mr-2" role="group" aria-label="Third Button">
+       <button type="button" class="btn btn-danger">A</button>
+   </div>
+</div>
+<br>
+
+<div class="dropdown">
+ <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+     aria-haspopup="true" aria-expanded="false">
+     Dropdown
+ </button>
+ <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+     <a class="dropdown-item" href="plane.html">plane</a>
+     <a class="dropdown-item" href="train.html">train</a>
+ </div>
+</div>
+</body>
 </html>
